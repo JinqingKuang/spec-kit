@@ -293,9 +293,15 @@ Additional commands for enhanced quality and validation:
 
 | Command              | Description                                                                                                                          |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `/speckit.clarify`   | Clarify underspecified areas (recommended before `/speckit.plan`; formerly `/quizme`)                                                |
-| `/speckit.analyze`   | Cross-artifact consistency & coverage analysis (run after `/speckit.tasks`, before `/speckit.implement`)                             |
-| `/speckit.checklist` | Generate custom quality checklists that validate requirements completeness, clarity, and consistency (like "unit tests for English") |
+| `/speckit.clarify`        | Clarify underspecified areas (recommended before `/speckit.plan`; formerly `/quizme`)                                                |
+| `/speckit.analyze`        | Cross-artifact consistency & coverage analysis (run after `/speckit.tasks`, before `/speckit.implement`)                             |
+| `/speckit.checklist`      | Generate custom quality checklists that validate requirements completeness, clarity, and consistency (like "unit tests for English") |
+| `/speckit.funcspec`       | Generate a function spec from spec.md after `/speckit.clarify`                                                                       |
+| `/speckit.funcspec.eval`  | Evaluate function spec quality with a 0–100 score and improvement suggestions                                                        |
+| `/speckit.designspec`     | Generate a design spec from spec.md and plan.md after `/speckit.plan`                                                                |
+| `/speckit.designspec.eval`| Evaluate design spec quality with a 0–100 score and improvement suggestions                                                          |
+| `/speckit.testspec`       | Generate a test spec from spec.md and tasks.md after `/speckit.implement`                                                            |
+| `/speckit.testspec.eval`  | Evaluate test spec quality with a 0–100 score and improvement suggestions                                                            |
 
 ### Environment Variables
 

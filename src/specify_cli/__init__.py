@@ -1066,6 +1066,12 @@ SKILL_DESCRIPTIONS = {
     "constitution": "Create or update project governing principles and development guidelines. Use at project start to establish code quality, testing standards, and architectural constraints that guide all development.",
     "checklist": "Generate custom quality checklists for validating requirements completeness and clarity. Use to create unit tests for English that ensure spec quality before implementation.",
     "taskstoissues": "Convert tasks from tasks.md into GitHub issues. Use after task breakdown to track work items in GitHub project management.",
+    "funcspec": "Generate a complete function spec document from the feature specification. Use after /speckit.clarify to produce a detailed behavioral description of the feature, covering interfaces, constraints, and acceptance criteria.",
+    "funcspec.eval": "Evaluate function spec quality with a 0-100 score across section completeness and content quality dimensions. Produces an actionable report with at least 3 specific improvement suggestions saved to function-spec-eval.md.",
+    "designspec": "Generate a complete design spec document from the feature specification and implementation plan. Use after /speckit.analyze to produce a technical architecture document covering components, data flows, and interface contracts.",
+    "designspec.eval": "Evaluate design spec quality with a 0-100 score across section completeness and content quality dimensions. Produces an actionable report with at least 3 specific improvement suggestions saved to design-spec-eval.md.",
+    "testspec": "Generate a complete test spec document from the feature specification and task list. Use after /speckit.implement to produce a structured test plan with functional test cases derived from acceptance scenarios.",
+    "testspec.eval": "Evaluate test spec quality with a 0-100 score across section completeness and content quality dimensions. Produces an actionable report with coverage assessment and at least 3 specific improvement suggestions saved to test-spec-eval.md.",
 }
 
 
